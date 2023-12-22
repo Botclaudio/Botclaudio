@@ -1,0 +1,39 @@
+from Selenium import webdriver
+from Selenium.webdriver.connon.by import By
+
+drivers = webdriver.chrome()
+drivers.get('https://beta.12.10/')
+
+resultado_final = []
+check_resultado_final -[]
+while len (driver.find_elements(By.XPTH,'/hml/ body div[3]/div/div/div[2]'iframe'))--0:
+           time.sleep(2)
+ iframe = driver.find_element(Bye.XPATH,'/ html /body div[3]/div/div/div[2]/ iframe')
+ 
+drive.swicth_to.frame (iframe)
+
+while len ( driver.final _ elements (By.XPATH,'html / body / app-noot/ app - game / div / div[1] / div / [2] / div / [2] / div [1] /app - stats - widget/ div / div[1] div')) = = 0 :
+  time.sleep(2)
+
+     print( elemento.split″())
+     def resultado ():
+     global lista
+     global resultado _ final
+ resultado = driver. find _ element (By.XPATH,'/ html body / app - noot / app - game / div / div [1] / div [2] / div / div [2] / [1] / app - stats - widget / div / div[1]).text
+
+      lista - []
+      resultado _ final - []
+      lista = resultado.split()
+ for x in range( len(lista[0:12])):
+
+       numero = lista[×] . translate (str.movetrans(",",'×'))
+        resultado _ final . append (float(numero))
+        return resultado _final
+ while true:
+         resultado ()
+    if resultado _ final ! - check _ resultado _ final:
+    check resultado _ final = resultado _ final
+        print ( resultado _ final)
+[ ' 1.02×', '1.26×', '7.89×', '2.36×', '1.00×', '1.77×','24.21×', '11.60×', '1.00×', '8.22×', '1.43×', '18.26×', '2.65×']
+        
+
